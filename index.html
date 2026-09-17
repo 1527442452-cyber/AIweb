@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NEXUS 黑白极简斜切几何品牌主页。"
+    />
+    <title>NEXUS / Building a clearer tomorrow</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell" id="home" data-active="home" data-help="expanded">
+      <header class="topbar">
+        <a class="brand" href="#home" aria-label="NEXUS 首页">
+          <svg
+            class="brand__mark"
+            viewBox="0 0 40 40"
+            aria-hidden="true"
+          >
+            <path d="M4 31 15 8h11L15 31H4Z" />
+            <path d="m19 31 6-13h11l-6 13H19Z" />
+          </svg>
+          <span class="brand__slashes">//</span>
+          <span class="brand__name">NEXUS</span>
+        </a>
+
+        <div class="manifesto" aria-label="品牌理念">
+          <span>LESS NOISE</span>
+          <i>/</i>
+          <span>MORE FOCUS</span>
+          <b aria-hidden="true"></b>
+        </div>
+
+        <button
+          class="help-ribbon"
+          type="button"
+          data-help-open
+          aria-label="打开使用帮助"
+        >
+          <span class="help-ribbon__viewport" aria-hidden="true">
+            <span class="help-ribbon__track">
+              <span>使用帮助 HELP</span>
+              <span>使用帮助 HELP</span>
+              <span>使用帮助 HELP</span>
+              <span>使用帮助 HELP</span>
+            </span>
+          </span>
+          <span class="help-ribbon__compact">
+            <b aria-hidden="true">?</b>
+            <span>帮助</span>
+            <small>HELP</small>
+          </span>
+        </button>
+      </header>
+
+      <main class="main-stage">
+        <nav class="primary-nav" aria-label="主要导航">
+          <button
+            class="nav-item is-active"
+            type="button"
+            data-section="home"
+            aria-current="page"
+          >
+            <span class="nav-item__wedge" aria-hidden="true"></span>
+            <span class="nav-item__stripe" aria-hidden="true"></span>
+            <span class="nav-item__icon">
+              <svg viewBox="0 0 56 56" aria-hidden="true">
+                <path d="m15 13 13-9 15 9v10L29 13 15 23v-10Z" />
+                <path d="M15 24 29 14l14 10v21L29 55 15 45V24Zm14 2v18l7-5V26l-7-5Z" />
+              </svg>
+            </span>
+            <span class="nav-item__label">行动中心</span>
+            <span class="nav-item__index">01</span>
+          </button>
+
+          <button class="nav-item" type="button" data-section="projects">
+            <span class="nav-item__wedge" aria-hidden="true"></span>
+            <span class="nav-item__stripe" aria-hidden="true"></span>
+            <span class="nav-item__icon">
+              <svg viewBox="0 0 56 56" aria-hidden="true">
+                <path d="M8 17h13l5 5h22v22H8V17Z" />
+                <path d="M8 31h18v13H8V31Zm28-7h8v4h-8v-4Z" />
+              </svg>
+            </span>
+            <span class="nav-item__label">项目总览</span>
+            <span class="nav-item__index">02</span>
+          </button>
+
+          <button class="nav-item" type="button" data-section="about">
+            <span class="nav-item__wedge" aria-hidden="true"></span>
+            <span class="nav-item__stripe" aria-hidden="true"></span>
+            <span class="nav-item__icon">
+              <svg viewBox="0 0 56 56" aria-hidden="true">
+                <path d="M3 34 28 9l24 12-14 6-5 20-10-13-20 0Z" />
+                <path d="m17 28 12-10 10 5-13 7-9-2Z" />
+              </svg>
+            </span>
+            <span class="nav-item__label">目标管理</span>
+            <span class="nav-item__index">03</span>
+          </button>
+
+          <button class="nav-item" type="button" data-section="blog">
+            <span class="nav-item__wedge" aria-hidden="true"></span>
+            <span class="nav-item__stripe" aria-hidden="true"></span>
+            <span class="nav-item__icon">
+              <svg viewBox="0 0 56 56" aria-hidden="true">
+                <path d="M12 12h32v35H12V12Zm8 9v17l8-9 8 9V21l-8 8-8-8Z" />
+              </svg>
+            </span>
+            <span class="nav-item__label">项目复盘</span>
+            <span class="nav-item__index">04</span>
+          </button>
+
+          <button class="nav-item" type="button" data-section="contact">
+            <span class="nav-item__wedge" aria-hidden="true"></span>
+            <span class="nav-item__stripe" aria-hidden="true"></span>
+            <span class="nav-item__icon">
+              <svg viewBox="0 0 56 56" aria-hidden="true">
+                <path d="m8 16 40 8-25 4-3 19-12-31Z" />
+                <path d="m20 28 18-13 10 9-25 4h-3Z" />
+              </svg>
+            </span>
+            <span class="nav-item__label">AI 分析室</span>
+            <span class="nav-item__index">05</span>
+          </button>
+        </nav>
+
+        <section class="visual-stage" aria-label="品牌主视觉">
+          <div class="visual-stage__frame" aria-hidden="true"></div>
+          <div class="visual-stage__beam" aria-hidden="true"></div>
+          <div class="visual-stage__white-slice"></div>
+
+          <figure class="visual-stage__art is-active" data-visual="home">
+            <img
+              src="./assets/visual-placeholder.svg"
+              alt="待替换的建筑主视觉占位图"
+            />
+          </figure>
+
+          <svg
+            class="visual-stage__lines"
+            viewBox="0 0 800 1100"
+            preserveAspectRatio="none"
+            aria-hidden="true"
+          >
+            <path d="M83 60 377 114 287 294 705 350" />
+            <path d="M17 454 275 328 230 742 78 860" />
+            <path d="m365 1028 111-261-178-270-31 499Z" />
+            <path d="m560 165-82 252 229 187-45 399" />
+            <path d="M127 140 331 418 214 806" />
+            <path d="M543 217 390 623 329 1030" />
+          </svg>
+
+          <div class="visual-stage__impact" aria-hidden="true">
+            <span data-visual-code>03</span>
+            <small data-visual-label>ABOUT / CORE</small>
+          </div>
+
+          <span class="visual-stage__caption" data-caption>VISUAL / 03</span>
+        </section>
+
+        <section class="copy-panel" aria-labelledby="page-title">
+          <p class="eyebrow">
+            <i>/</i>
+            <span data-copy-eyebrow>NEXUS / COMMAND CENTER</span>
+          </p>
+          <h1 id="page-title">
+            <span class="title-line"
+              ><span data-title-line>TURN INTENT</span></span
+            >
+            <span class="title-line"
+              ><span data-title-line>INTO</span></span
+            >
+            <span class="title-line"
+              ><span data-title-line>EXECUTION</span></span
+            >
+          </h1>
+          <span class="copy-panel__accent" aria-hidden="true"></span>
+          <p class="copy-panel__body" data-copy-body>
+            AI 将模糊目标拆解为项目、阶段与任务，<br />
+            持续监督执行并根据风险动态调整计划。
+          </p>
+          <button class="more-link" type="button">
+            <span class="more-link__rule" aria-hidden="true"></span>
+            <span class="more-link__label" data-copy-cta>OPEN COMMAND CENTER</span>
+            <span class="more-link__arrow" aria-hidden="true">→</span>
+          </button>
+        </section>
+      </main>
+
+      <footer class="bottom-bar">
+        <div class="footer-tags">
+          <span>AI</span>
+          <i>/</i>
+          <span>EXECUTION</span>
+          <i>/</i>
+          <span>CLARITY</span>
+          <b aria-hidden="true"></b>
+        </div>
+        <div class="page-counter">
+          <span data-counter-active>01</span>
+          <i>/</i>
+          <span>05</span>
+          <svg viewBox="0 0 44 30" aria-hidden="true">
+            <path d="M1 29 14 1h12L13 29H1Z" />
+            <path d="M20 29 33 1h10L30 29H20Z" />
+          </svg>
+        </div>
+      </footer>
+    </div>
+
+    <article
+      class="detail-view"
+      data-detail-view
+      data-detail="home"
+      aria-hidden="true"
+      aria-labelledby="detail-title"
+    >
+      <header class="detail-topbar">
+        <div class="detail-brand" aria-label="NEXUS">
+          <svg
+            class="brand__mark"
+            viewBox="0 0 40 40"
+            aria-hidden="true"
+          >
+            <path d="M4 31 15 8h11L15 31H4Z" />
+            <path d="m19 31 6-13h11l-6 13H19Z" />
+          </svg>
+          <span class="brand__slashes">//</span>
+          <span class="brand__name">NEXUS</span>
+        </div>
+
+        <button class="detail-close" type="button" data-detail-close>
+          <svg viewBox="0 0 42 20" aria-hidden="true">
+            <path d="M1 10h37M29 1l9 9-9 9" />
+          </svg>
+          <span>返回主页</span>
+        </button>
+      </header>
+
+      <main class="detail-main">
+        <section class="detail-visual" aria-hidden="true">
+          <span class="detail-visual__rule detail-visual__rule--a"></span>
+          <span class="detail-visual__rule detail-visual__rule--b"></span>
+          <div class="detail-visual__white"></div>
+
+          <figure class="detail-visual__art">
+            <img
+              src="./assets/visual-placeholder.svg"
+              alt=""
+            />
+          </figure>
+
+          <svg
+            class="detail-visual__lines"
+            viewBox="0 0 900 1200"
+            preserveAspectRatio="none"
+          >
+            <path d="M48 92 421 31l110 326 320-97" />
+            <path d="m29 615 303-229-90 527 188 244" />
+            <path d="m256 1194 129-350-157-203 401 79" />
+            <path d="m842 152-116 351 112 317-293 330" />
+          </svg>
+
+          <span class="detail-visual__number" data-detail-index>01</span>
+          <span class="detail-visual__code" data-detail-code>目标 / 项目 / 任务</span>
+        </section>
+
+        <section class="detail-copy">
+          <p class="detail-eyebrow">
+            <i>/</i>
+            <span data-detail-eyebrow>NEXUS / 行动中心</span>
+          </p>
+
+          <h2 id="detail-title">
+            <span
+              ><span data-detail-title-line>把模糊目标</span></span
+            >
+            <span
+              ><span data-detail-title-line>拆成每天</span></span
+            >
+            <span
+              ><span data-detail-title-line>能做的事</span></span
+            >
+          </h2>
+
+          <p class="detail-lede" data-detail-lede>
+            AI 将模糊目标拆解为项目、阶段与任务，持续监督执行并根据风险动态调整计划。
+          </p>
+
+          <section class="detail-block">
+            <h3>核心流程</h3>
+            <ul class="detail-services" data-detail-services></ul>
+          </section>
+
+          <dl class="detail-meta" data-detail-meta></dl>
+
+          <div class="detail-app" data-detail-app hidden></div>
+
+          <button class="detail-action" type="button" data-detail-action>
+            <span class="detail-action__rule" aria-hidden="true"></span>
+            <span data-detail-action-label>进入行动中心</span>
+            <span aria-hidden="true">→</span>
+          </button>
+        </section>
+      </main>
+
+      <footer class="detail-footer">
+        <span>NEXUS / 目标与项目管理</span>
+        <span data-detail-footer>DETAIL / 01</span>
+      </footer>
+    </article>
+
+    <div class="interaction-note" role="status" aria-live="polite"></div>
+    <script src="./store.js"></script>
+    <script src="./engine.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
